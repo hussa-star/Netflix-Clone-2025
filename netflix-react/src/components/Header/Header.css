@@ -1,10 +1,11 @@
 .header-outer-container {
   background-color: black;
   height: 10vh;
-  /* background-color: transparent; */
+  background-color: transparent;
   background-color: rgb(20, 20, 20);
   position: sticky;
   top: 0;
+   left: 0;
   display: flex;
   justify-content: center;
   align-items: center;

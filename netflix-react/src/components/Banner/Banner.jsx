@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import requests from "../../utils/requests";
 import axios from "../../utils/axios";
-import "./Banner.css"
+import "./Banner.css";
 
 const Banner = () => {
   const [movie, setMovie] = useState({});
@@ -28,7 +28,6 @@ const Banner = () => {
 
   return (
     <>
-      {console.log(movie)}
       <div
         className="banner"
         style={{

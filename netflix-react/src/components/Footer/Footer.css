@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   color: gray;
+  margin-bottom: 0px;
 }
 
 .footer-inner-container {
@@ -35,9 +36,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px white solid;
+  border: 1px rgb(155, 148, 148) solid;
   margin: 10px 0;
   cursor: pointer;
+  text-align: center;
+  font-size: 13px;
 }
 .copy-write{
 font-size: 12px;
