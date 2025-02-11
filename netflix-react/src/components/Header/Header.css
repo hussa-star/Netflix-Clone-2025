@@ -2,7 +2,7 @@
   background-color: black;
   height: 10vh;
   background-color: transparent;
-  background-color: rgb(20, 20, 20);
+  /* background-color: rgb(20, 20, 20); */
   position: sticky;
   top: 0;
    left: 0;
@@ -18,10 +18,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  cursor: pointer;
+  
 }
 .header-container ul li {
   list-style-type: none;
+  cursor: pointer;
 }
 .header-container {
   display: flex;
@@ -42,3 +43,31 @@
   gap: 15px;
   
 }
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;}
+  .Netflixlogo{
+    cursor: pointer;
+  }
+@media (max-width: 768px) {
+
+.header-outer-container{
+  width: 100%;
+}
+.header-container{
+  width: 100%;
+}
+.header-container ul li{
+  display: none;
+  
+}
+.header-container ul li img{
+  display: block;
+}
+
+
+
+   }

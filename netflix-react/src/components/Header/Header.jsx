@@ -12,9 +12,15 @@ const Header = () => {
       <div className="header-container">
         <div className="header-left">
           <ul>
-            <li>
-              <img src={Netflixlogo} alt="netflix logo" width={100} />
-            </li>
+            <div>
+              <img
+                className="Netflixlogo"
+                src={Netflixlogo}
+                alt="netflix logo"
+                width={100}
+              />
+            </div>
+
             <li>Home</li>
             <li>TVShows</li>
             <li>Movies</li>
@@ -35,6 +41,15 @@ const Header = () => {
             <li>
               <AccountBoxIcon />
             </li>
+            <div>
+              <img
+                className="avatar"
+                src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
+                alt="Netflix Avatar"
+                width="30"
+                height="30"
+              />
+            </div>
             <li>
               <ArrowDropDownIcon />
             </li>

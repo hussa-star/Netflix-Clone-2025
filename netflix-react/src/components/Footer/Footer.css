@@ -10,6 +10,7 @@
   width: 60%;
 }
 .footer-icon {
+  margin-top: 10px;
   color: white;
   width: 12%;
   display: flex;
@@ -47,3 +48,24 @@ font-size: 12px;
 margin-bottom: 10px;
 }
 
+@media (max-width: 768px) {
+  .footer-outer-container{
+    text-align: center;
+   
+  }
+  .footer-data{
+   font-size: 1em;
+  }
+  .footer-inner-container{
+   
+   
+    
+  }
+  .service-code{
+   display: none;
+  }
+  .footer-icon{
+    display: inline;
+    gap: 15px;
+  }
+}
