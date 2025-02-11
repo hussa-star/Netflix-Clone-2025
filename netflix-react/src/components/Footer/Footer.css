@@ -43,29 +43,32 @@
   text-align: center;
   font-size: 13px;
 }
-.copy-write{
-font-size: 12px;
-margin-bottom: 10px;
+.copy-write {
+  font-size: 12px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 768px) {
-  .footer-outer-container{
+  .footer-outer-container {
     text-align: center;
-   
   }
-  .footer-data{
-   font-size: 1em;
+  .footer-data {
+    font-size: 0.8rem;
+    display: flex;
   }
-  .footer-inner-container{
-   
-   
-    
+  .footer-inner-container {
   }
-  .service-code{
-   display: none;
+  .service-code {
+    display: none;
   }
-  .footer-icon{
+  .footer-icon {
     display: inline;
     gap: 15px;
+  }
+  .media{
+    display: none;
+  }
+  .help{
+    display: none;
   }
 }

@@ -21,7 +21,7 @@ const Footer = () => {
               <li>Legal Notice</li>
             </ul>
           </div>
-          <div>
+          <div className="help">
             <ul>
               <li>Help Center</li>
               <li>Jobs</li>
@@ -35,7 +35,7 @@ const Footer = () => {
               <li>Corporate Information</li>
             </ul>
           </div>
-          <div>
+          <div className="media">
             <ul>
               <li>Media Center</li>
               <li>Privacy</li>
