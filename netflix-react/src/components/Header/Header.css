@@ -1,39 +1,36 @@
-.header-outer-container {
-  background-color: black;
+.header-container {
   height: 10vh;
   background-color: transparent;
-  /* background-color: rgb(20, 20, 20); */
-  position: sticky;
-  top: 0;
-   left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  transition: all 0.5s;
-  transition-timing-function: ease-in;
-}
-.header-container {
-  width: 90%;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+  color: white;
+  position: fixed;
+  padding: 20px;
+  top: 0;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+  z-index: 1;
+}
+
+.header_black {
+  background-color: #111;
 }
 .header-container ul li {
   list-style-type: none;
   cursor: pointer;
 }
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.header-container ul li a {
+  color: white;
+  text-decoration: none;
 }
+
 .header-left ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  padding: 0 15px;
   width: 140%;
 }
 .header-right ul {
@@ -41,33 +38,29 @@
   justify-content: space-between;
   align-items: center;
   gap: 15px;
-  
+  padding: 0 20px;
 }
+
 .avatar {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   object-fit: cover;
-  cursor: pointer;}
-  .Netflixlogo{
-    cursor: pointer;
-  }
+  cursor: pointer;
+  filter: hue-rotate(0deg) saturate(200%) brightness(0.8) contrast(1.2);
+}
+.Netflixlogo {
+  cursor: pointer;
+  object-fit: contain;
+}
 @media (max-width: 768px) {
-
-.header-outer-container{
-  width: 100%;
+  .header-container {
+    width: 100vw;
+  }
+  .header-container ul li a {
+    display: none;
+  }
+  .header-right {
+    display: none;
+  }
 }
-.header-container{
-  width: 100%;
-}
-.header-container ul li{
-  display: none;
-  
-}
-.header-container ul li img{
-  display: block;
-}
-
-
-
-   }
